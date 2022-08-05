@@ -4,7 +4,7 @@ body{
 }
 .header {
     /* background-image:  url(img/clouds.png); */
-    background: linear-gradient(180deg, rgba(0 0 0 / 0.25%) 15%, #000000 85%), url(img/clouds.png) no-repeat center center / cover;
+    background: linear-gradient(180deg, rgba(0 0 0 / 0.25%) 15%, #000000 85%), url(./img/clouds.png) no-repeat center center / cover;
     min-height: 100vh;
     background-size: cover;
 }
