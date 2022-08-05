@@ -1,0 +1,70 @@
+@media (max-width:1150px){
+    .row_nav{
+        justify-content: center !important;
+    }
+    .navigation{
+        margin-top: 40px;
+    }
+}
+@media(max-width: 830px){
+ .row_studios{
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+ .row_devices{
+    flex-direction: column;
+    gap: 35px;
+ }
+ .row_plans_price{
+     justify-content: center !important;
+ }
+ .row_nav{
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+ }
+ .navigation{
+     flex-direction: column;
+     gap: 30px;
+ }
+ .row_get{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+ }
+ .navigation a:first-child{
+     display: none;
+ }
+ .laser_2{
+     display: none;
+ }
+ .right_gradient, .left_gradient{
+     display: none;
+ }
+ .price{
+     width: 100%;
+     justify-content: center;
+     align-items:center
+ }
+ .laser{
+    height: inherit !important;
+}
+ /* .logo-form{
+     f
+ } */
+}
+@media(max-width:450px){
+    .row_studios{
+        justify-content: center !important;
+    }
+    .dop_price{
+        justify-content: center;
+        flex-direction: column  ;
+    }
+    .dop_price p{
+        flex-direction: column;
+    }
+    
+}

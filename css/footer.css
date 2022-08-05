@@ -1,0 +1,72 @@
+.row_footer,.footer_dop2{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.explore_dop{
+    align-items: baseline;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #8a8787;
+}
+.explore_dop li{
+    margin-top: 10px;
+}
+.explore_dop p{
+    font-size: 25px;
+    color: white;
+}
+.logo_footer img{
+   width: 150px;
+}
+.explore_dop li:hover{
+    color:  white;
+    transition: 0.5s ease;
+}
+.footer_dop2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    gap: 20px;
+    display: flex;
+    float: left;
+    margin-bottom: 70px;
+}
+.row_footer2{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+    .row_terms{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .terms_info{
+        display: flex;
+        gap: 45px;
+    }
+select{
+    color:white;
+    background:  none;
+    border: 1px solid #FFFFFF;
+    padding: 17px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* max-width: 115px; */
+    /* width: 100%; */
+}
+select option{
+    color:black;
+}
+.dropdown_montly{
+    display: flex;
+    gap: 30px;
+}
